@@ -12,13 +12,10 @@ const server = new http.Server(app);
 setupWebsocket(server);
 
 mongoose
-  .connect(
-    "mongodb+srv://omnistack:omnistack@cluster0.9ur76.mongodb.net/week10?retryWrites=true&w=majority",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    }
-  )
+  .connect(String(process.env.MONGO_URL), {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
   .then(() => console.log("> Banco de dados conectado"));
 
 app.use(cors());
