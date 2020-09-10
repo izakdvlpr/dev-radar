@@ -27,7 +27,7 @@
 
 **Captura de tela da interface mobile**
 
-Faça o download do **app para android** [clicando aqui](http://download1478.mediafire.com/j2tmdx6qvamg/wh3l8375ge9le6e/dev-radar.apk).
+Faça o download do **app para android** [clicando aqui](http://www.mediafire.com/file/wh3l8375ge9le6e/dev-radar.apk/file).
 
 <div>
   <img src="./.github/mobile-splash.jpeg" width="180px">
