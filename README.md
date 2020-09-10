@@ -42,7 +42,24 @@ Faça o download do **app para android** [clicando aqui]().
 
 ## :gear: Requisitos
 
+- [Git](https://git-scm.com/) (Para clonar)
+- [Node.js](https://node.js.org/)
+- [Yarn](https://yarnpkg.com/) (Você pode usar o Npm do própio Node. Lembre-se de remover o arquivo `yarn.lock` e logo executar `npm install`)
+
 ## :arrow_forward: Como utilizar
+
+**Mobile**
+
+- Primeiro passo, clone o projeto em sua maquina: `git clone https://github.com/zevdvlpr/twitch-app-clone`
+- Abra a pasta do projeto no terminal.
+- Instale as dependências com o comando: `yarn install`
+- Inicie o bundle do expo com o comando: `yarn start`
+- Abra uma aba no navegador e navegue para: `http://localhost:19002`
+- Feito isso só baixar o expo client no seu celular:
+  - [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR)
+  - [IOS](https://apps.apple.com/br/app/expo-client/id982107779)
+- Faça o login no app.
+- Depois só escanear o QRCode.
 
 ## :recycle: Como Contribuir
 
