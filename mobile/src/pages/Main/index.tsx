@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
-import MapView, { Marker, Callout } from "react-native-maps";
+import { Marker, Callout } from "react-native-maps";
 
 import {
   requestPermissionsAsync,
@@ -9,6 +9,7 @@ import {
 import { MaterialIcons } from "@expo/vector-icons";
 
 import api from "../../services/api";
+import { connect, disconnect, subscribeToNewDevs } from "../../services/socket";
 
 import {
   Map,
@@ -29,7 +30,7 @@ interface ICurrentRegion {
   longitudeDelta: number;
 }
 
-interface IDev {
+export interface IDev {
   _id: string;
   techs: string[];
   github_username: string;
@@ -65,10 +66,26 @@ const Main: React.FC = () => {
         longitudeDelta: 0.04,
       });
     }
+  }    
+
+  useEffect(() => {
+    loadInitialPosition();
+  }, []);
+  
+  useEffect(() => {
+    subscribeToNewDevs((dev: IDev) => setDevs([...devs, dev]));
+  }, [devs]);
+  
+  function setupWebsocket() {
+    disconnect();
+    
+    const { latitude, longitude }: any = currentRegion;
+    
+    connect(latitude, longitude, techs);
   }
   
   async function loadDevs() {
-    const { latitude, longitude } = currentRegion;
+    const { latitude, longitude }: any = currentRegion;
     
     const response = await api.get("/search", {
       params: {
@@ -79,15 +96,12 @@ const Main: React.FC = () => {
     });        
       
     setDevs(response.data.devs);
+    setupWebsocket();
   }
   
   function handleRegionChanged(region: ICurrentRegion) {    
     setCurrentRegion(region);
   }
-
-  useEffect(() => {
-    loadInitialPosition();
-  }, []);  
 
   if (!currentRegion) {
     return null;
