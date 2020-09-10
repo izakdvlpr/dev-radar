@@ -40,7 +40,7 @@ Faça o download do **app para android** [clicando aqui](https://expo.io/artifac
 
 ## :computer: Tecnologias
 
-### Server
+#### Server
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en/)
@@ -95,13 +95,13 @@ Faça o download do **app para android** [clicando aqui](https://expo.io/artifac
 
 ## :arrow_forward: Como utilizar
 
-**Server**
+#### Server
 
 - Navegue até a pasta do servidor.
 - Instale as dependências com o comando: `yarn install`
 - Inicie o **servidor** de desenvolvimento com o comando: `yarn start`
 
-**Mobile**
+#### Mobile
 
 - Primeiro passo, clone o projeto em sua maquina: `git clone https://github.com/zevdvlpr/dev-radar/tree/master/mobile`
 - Abra a pasta do projeto no terminal.
