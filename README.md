@@ -40,7 +40,7 @@ Faça o download do **app para android** [clicando aqui]().
 
 ## :computer: Tecnologias
 
-**Server**
+### Server
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en/)
@@ -58,11 +58,34 @@ Faça o download do **app para android** [clicando aqui]().
 - [ts-node-dev]()
 - [typescript]()
 
-**Mobile**
+#### Mobile
+
+- [React Native com Expo](https://expo.io)
+- [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+- [JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [TypeScript](https://www.typescriptlang.org/)
 
 **Dependências**
 
+- [axios]()
+- [expo]()
+- [expo-location]()
+- [react]()
+- [react-native]()
+- [react-native-gesture-handler]()
+- [react-native-maps]()
+- [react-native-reanimated]()
+- [react-native-safe-area-context]()
+- [react-native-screens]()
+- [react-native-webview]()
+- [socket.io-client]()
+- [styled-components]()
+
 **Dependências de desenvolvimento**
+
+- [@babel/core]()
+- [typescript](https://github.com/microsoft/typescript)
 
 ## :gear: Requisitos
 
