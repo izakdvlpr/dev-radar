@@ -32,7 +32,7 @@ Faça o download do **app para android** [clicando aqui]().
 <div>
   <img src="./.github/mobile-splash.jpeg" width="180px">
   <img src="./.github/mobile-main.jpeg" width="180px">
-  <img src="./.github/mobile-main-devs.jpeg" width="180px">
+  <img src="./.github/mobile-main-dev.jpeg" width="180px">
   <img src="./.github/mobile-profile.jpeg" width="180px">
 </div>
 
