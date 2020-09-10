@@ -40,6 +40,30 @@ Faça o download do **app para android** [clicando aqui]().
 
 ## :computer: Tecnologias
 
+**Server**
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+
+**Dependências**
+
+- [axios]()
+- [cors]()
+- [express]()
+- [mongoose]()
+
+**Dependências de desenvolvimento**
+
+- [dotenv]()
+- [ts-node-dev]()
+- [typescript]()
+
+**Mobile**
+
+**Dependências**
+
+**Dependências de desenvolvimento**
+
 ## :gear: Requisitos
 
 - [Git](https://git-scm.com/) (Para clonar)
@@ -48,9 +72,15 @@ Faça o download do **app para android** [clicando aqui]().
 
 ## :arrow_forward: Como utilizar
 
+**Server**
+
+- Navegue até a pasta do servidor.
+- Instale as dependências com o comando: `yarn install`
+- Inicie o **servidor** de desenvolvimento com o comando: `yarn start`
+
 **Mobile**
 
-- Primeiro passo, clone o projeto em sua maquina: `git clone https://github.com/zevdvlpr/twitch-app-clone`
+- Primeiro passo, clone o projeto em sua maquina: `git clone https://github.com/zevdvlpr/dev-radar/tree/master/mobile`
 - Abra a pasta do projeto no terminal.
 - Instale as dependências com o comando: `yarn install`
 - Inicie o bundle do expo com o comando: `yarn start`
