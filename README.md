@@ -50,7 +50,9 @@ DevRadar is a project that aims to connect developers close to you who work with
 **Mobile**
 
 - Enter in directory: `cd mobile`.
+- For install dependencies with `yarn install` or `npm install`.
 - Open a tab in your browser and navigate to: `http://localhost:19002`
+- Run the project with `yarn start` or `npm start`.
 - Once that's done, just download the expo client on your cell phone:
    - [Expo for Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR)
    - [Expo for IOS](https://apps.apple.com/br/app/expo-client/id982107779)
