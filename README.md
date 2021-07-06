@@ -44,7 +44,7 @@ DevRadar is a project that aims to connect developers close to you who work with
 - Enter in directory: `cd server`.
 - For install dependencies with `yarn install` or `npm install`.
 - Rename the `.env.example` file to `.env`.
-- Set the environment variables,
+- Set the environment variables.
 - Run the project with `yarn start` or `npm start`.
 
 **Mobile**
